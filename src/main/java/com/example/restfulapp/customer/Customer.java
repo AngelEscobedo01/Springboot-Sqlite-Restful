@@ -14,7 +14,7 @@ public class Customer {
     @Id
     @GeneratedValue
     @Setter
-    private Long id; // @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @Getter @Setter
     public String firstName;
